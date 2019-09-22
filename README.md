@@ -1,4 +1,31 @@
-1. create new page who you make safe:
+# Step by Step Example Angular Ionic <br>create safed routes
+
+of the  
+[Ionic Framework](https://ionicframework.com/)  and [Angular](https://angular.io/)
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Step by Step Example Angular Ionic create reactive form](#step-by-step)
+
+## Getting Started
+
+1. [Download the installer](https://nodejs.org/) for Node.js
+   - check it with: `node --version`
+2. Install the angular CLI globally: `npm install -g @angular/cli`
+   - check it with: `ng --version`
+3. Install the ionic CLI globally: `npm install -g ionic`
+   - check it with: `ionic --version`
+4. Install Ionic native-run `npm i -g native-run`
+5. Create Ionic Template blank: `ionic start YourProjectName blank`
+   - creates a new Folder with the Name: YourProjectName and with the blank template
+6. Go to your newly created project: `cd .\YourProjectName`
+7. Run `ionic serve` within the app directory to see your app
+   - you see it in: [localhost:8100](http://localhost:8100)
+
+## Step by Step
+
+1. create new page who you want to make safe:
 run `ionic g page safed`
 
 2. create a guard who controls the routes;here e.g login guard
